@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/buttonMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:onClick="VerMapa"
+            android:paddingBottom="14dp"
+            android:text="Consultar Ubicación"
+            tools:text="Consultar Ubicacion" />
+
+        <Button
+            android:id="@+id/buttonMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:onClick="VerMenu"
+            android:paddingBottom="14dp"
+            android:text="Consultar Menú" />
+
+        <Button
+            android:id="@+id/buttonMesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:onClick="VerReserva"
+            android:paddingBottom="14dp"
+            android:text="Reservar Mesa" />
+
+        <Button
+            android:id="@+id/buttonServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerServicio"
+            android:paddingBottom="14dp"
+            android:text="Calificar Servicio" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/cherff" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
